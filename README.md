@@ -396,10 +396,10 @@ body{
         </div>
         <!-- 刺繍帯（下） -->
         <div class="towel-band">
-          <span class="emb-addr">平成三十八年　六月創設　インターネット支部</span>
+          <span class="emb-addr">平成三十八年　六月創設　立命館支部</span>
           <span class="emb-mid" id="emb-eyebrow">温泉　レトロメディア研究会</span>
           <span class="emb-main" id="modal-title">レトロメディア研究会</span>
-          <span class="emb-small">民宿・お食事処　むらぎ染み入る島の宿</span>
+          <span class="emb-small"></span>
           <span class="emb-addr">RETRO MEDIA LABORATORY　Discord 班　随時入会受付中</span>
         </div>
         <div id="towel-close-row">
@@ -605,7 +605,7 @@ let COLS,ROWS,TS,tiles=[],specialCells={};
 const MODALS={
   about:{
     title:'レトロメディア研究会',
-    eyebrow:'温泉　研究会案内',
+    eyebrow:'研究会案内',
     sub:'ABOUT US',
     body:'<span class="ac">レトロメディア研究会</span>は、ゲーム・映像・音楽（DTM）などのデジタルメディアと、アナログ・レトロを掛け合わせたモノづくりを総合的に楽しむ研究会です。古きよきものを追求したり、レトロメディアからヒントを得て、新しいものを作ってみる活動を行っています。'
   },
@@ -613,11 +613,11 @@ const MODALS={
     title:'活　動　内　容',
     eyebrow:'温泉　レトロメディア研究会',
     sub:'ACTIVITY',
-    body:'<span class="ac">ゲーム</span>　レトロゲームの研究・自作ゲーム制作<br><span class="ac">映像</span>　アナログフィルム・VHS・CG映像制作<br><span class="ac">音楽（DTM）</span>　チップチューン・シンセ・宅録<br><br>月に数回のオンライン集会と、不定期の制作合宿を行っています。'
+    body:'<span class="ac">ゲーム</span>　レトロゲームの研究・自作ゲーム制作<br><span class="ac">映像</span>　アナログフィルム・VHS・CG映像制作<br><span class="ac">音楽（DTM）</span>　チップチューン・シンセ・宅録<br><br>年に数回のオンライン集会と、不定期の合作を行っています。'
   },
   join:{
     title:'ご　参　加　に　つ　い　て',
-    eyebrow:'温泉　入会案内',
+    eyebrow:'入会案内',
     sub:'JOIN US',
     body:'<span class="ac">平成38年（2026年）6月</span>に創設されたばかりの新しい研究会です。メンバーは随時募集中。ジャンルを問わず、レトロとデジタルに興味のある方ならどなたでも歓迎します。まずは Discord でお気軽にどうぞ。'
   }
@@ -788,7 +788,7 @@ function buildGrid(){
           span.style.letterSpacing='.08em';
           span.textContent='参加';
           el.appendChild(span);
-          el.addEventListener('click',()=>{window.open('https://discord.gg/','_blank');dismissHint();});
+          el.addEventListener('click',()=>{window.open('https://discord.gg/uje8C2u4E4');dismissHint();});
 
         }else if(spec.type==='year'){
           el.classList.add('year-tile','c-sky');
