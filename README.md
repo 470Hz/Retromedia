@@ -616,7 +616,7 @@ const MODALS={
     body:'<span class="ac">ゲーム</span>　レトロゲームの研究・自作ゲーム制作<br><span class="ac">映像</span>　アナログフィルム・VHS・CG映像制作<br><span class="ac">音楽（DTM）</span>　チップチューン・シンセ・宅録<br><br>年に数回のオンライン集会と、不定期の合作を行っています。'
   },
   join:{
-    title:'ご 加 に つ い て',
+    title:'ご参加について',
     eyebrow:'入会案内',
     sub:'JOIN US',
     body:'<span class="ac">平成38年（2026年）6月</span>に創設されたばかりの新しい研究会です。メンバーは随時募集中。ジャンルを問わず、レトロとデジタルに興味のある方ならどなたでも歓迎します。まずは Discord でお気軽にどうぞ。'
